@@ -1,5 +1,5 @@
   /*tamaño obligatorio p =< 16px // h1 =< 24px*/
-  
+
   body {
     background-color: #f8f9fa; /* Color de fondo */
   }
@@ -18,14 +18,14 @@
     height: 400px;
   }
 
-  .form-Registro {
+  .form-registro {
     width: 350px;
     height: 600px;
   }
 
   .form-olvidado {
     width: 350px;
-    height: 410px;
+    height: 375px;
   }
 
   .titulo {
@@ -80,7 +80,7 @@
 
   .mi-recuadro {
     width: 250px; /* Ancho del recuadro */
-    height: 75px; /* Altura del recuadro */
+    height: 45px; /* Altura del recuadro */
     border: 1px solid #ff9900; /* Borde sólido de 2 píxeles, color #333 */
     padding: 20px; /* Espaciado interno de 20 píxeles */
     margin: 3px auto; /* Margen superior e inferior de 50 píxeles, centrado horizontalmente */

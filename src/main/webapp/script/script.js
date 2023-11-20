@@ -27,7 +27,7 @@ function cargarContenido(url) {
     xhr.send();
 }
 
-function checkPasswordMatch() {
+function revisarContraseña() {
     var contraseña = document.getElementById('contraseña').value;
     var confContraseña = document.getElementById('confContraseña').value;
     var mensajeContraseña = document.getElementById('mensajeContraseña');
