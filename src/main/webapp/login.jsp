@@ -1,32 +1,22 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Login</title>
 </head>
 <body>
 
 <div class="contenedor form-login">
+	<p class="titulo">Bienvenido</p>
+	<form class="form">
+		<input type="email" class="input" placeholder="Email"> 
+		<input type="password" class="input" placeholder="ContraseÃ±a">
+		<button class="form-btn">Acceder</button>
+	</form>
+	<button class="form-btn" onclick="cargarContenido('registro.jsp')">Registrarse</button>	
+	<button class="form-btn negro" onclick="cargarContenido('cambiarContra.jsp')">Recuperar contraseÃ±a</button>
+</div>
 
-						<p class="title">Bienvenido</p>
-
-						<form class="form">
-							<input type="email" class="input" placeholder="Email"> 
-							<input type="password" class="input" placeholder="Contraseña">
-
-							<button class=" form-btn">Acceder</button>
-						</form>					
-	
-						<button class="form-btn">Registrarse</button>
-
-						<div class="buttons-container">
-							<div class="apple-login-button" onclick="cargarContenido('olvidadoContraseñ.jsp')">
-								Recuperar contraseña
-							</div>
-
-						</div>
-					</div>
 </body>
 </html>

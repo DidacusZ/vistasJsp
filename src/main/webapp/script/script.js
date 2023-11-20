@@ -1,4 +1,6 @@
+
 function cargarContenido(url) {
+	console.log("funciona");	
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function() {
@@ -24,7 +26,6 @@ function cargarContenido(url) {
     xhr.open('GET', url, true);
     xhr.send();
 }
-
 
 function checkPasswordMatch() {
     var contraseña = document.getElementById('contraseña').value;

@@ -1,27 +1,28 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<script src="script/script.js"></script>
+<meta charset="UTF-8">
 <link rel="stylesheet" href="estilos/menu.css">
 <link rel="stylesheet" href="estilos/estilo.css">
+
+<script src="script/script.js"></script>
 <title>Inicio</title>
 </head>
 <body>
 	<nav>	
-		<div class="menu">     
-		<div class="logo"><a href="#">Biblioteca</a></div>
-			<ul class="nav-links">            
-				<li><a onclick="cargarContenido('registro.jsp')" >Registrarse</a></li>
-				<li><a onclick="cargarContenido('login.jsp')" >Login</a></li>
+		<div class="menu">
+		<div class="logo"><a>Biblioteca</a></div>
+			<ul class="nav-links">
+				<li><a onclick="cargarContenido('login.jsp')" href="#" >Login</a></li>				
 			</ul>
 		</div>
 	</nav>
 	
 	<div id="caja">
-	<button onclick="cargarContenido('registro.jsp')">Registrar</button>
+	<script>
+        cargarContenido('login.jsp');
+    </script>
 	</div>  
     
 </body>
